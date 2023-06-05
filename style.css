@@ -1,0 +1,55 @@
+body 
+{
+    background-color: lightblue;
+}
+#start-btn
+{
+    width: 40%;
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+#logo_img
+{
+    width: 150px;
+    border-radius: 100px;
+}
+#textbox
+{
+    width: 300px;
+}
+.result
+{
+    width: 30%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+ }
+ h1{
+    font-style: italic;
+    font-family: fantasy;
+ }
+ .photo{
+    display: inline;
+    padding: 5px;
+ }
+ img{
+    border: solid;
+    border-width: 5px;
+    border-color: white;
+    width: 35%;
+    box-shadow: 0 6px 8px 0  rgba(2, 2, 2, 0.2);
+}
+img:hover {
+    border-radius: 140px;
+}
